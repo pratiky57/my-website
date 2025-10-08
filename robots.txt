@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+
+# Allow all crawlers to access the site
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Sitemap location
+Sitemap: https://rinkuyadav.com.np/sitemap.xml
+
+# Crawl-delay (optional)
+Crawl-delay: 1
+
+# Block access to any admin or private directories (if you have any)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Allow access to CSS and JS files for better rendering
+Allow: /styles.css
+Allow: /*.css
+Allow: /*.js
