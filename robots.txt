@@ -22,3 +22,9 @@ Crawl-delay: 1
 Allow: /styles.css
 Allow: /*.css
 Allow: /*.js
+
+User-agent: *
+Allow: /
+
+User-agent: Googlebot
+Allow: /
