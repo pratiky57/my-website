@@ -1,30 +1,26 @@
+# Block all crawlers by default
 User-agent: *
-Allow: /
+Disallow: /
 
-# Allow all crawlers to access the site
+# Allow Googlebot (Search indexing)
 User-agent: Googlebot
 Allow: /
 
-User-agent: Bingbot
+# Allow AdSense crawler
+User-agent: Mediapartners-Google
+Allow: /
+
+# Allow AdSense mobile bot
+User-agent: AdsBot-Google-Mobile
+Allow: /
+
+# Allow AdSense desktop bot
+User-agent: AdsBot-Google
+Allow: /
+
+# Allow Google Image crawler
+User-agent: Googlebot-Image
 Allow: /
 
 # Sitemap location
-Sitemap: https://rinkuyadav.com.np/sitemap.xml
-
-# Crawl-delay (optional)
-Crawl-delay: 1
-
-# Block access to any admin or private directories (if you have any)
-# Disallow: /admin/
-# Disallow: /private/
-
-# Allow access to CSS and JS files for better rendering
-Allow: /styles.css
-Allow: /*.css
-Allow: /*.js
-
-User-agent: *
-Allow: /
-
-User-agent: Googlebot
-Allow: /
+Sitemap: https://www.rinkuyadav.com.np/sitemap.xml
