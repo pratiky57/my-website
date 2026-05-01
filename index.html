@@ -360,17 +360,18 @@
             });
 
             // Story click handlers
-            window.openStory = function(storyId) {
-                const stories = {
-                    window.location.href = 'sukumvasi.html',
-                    'chugli':    { title: 'चुग्ली',    content: 'Full story content coming soon.' },
-                    'irshya':    { title: 'ईर्ष्या',   content: 'Full story content coming soon.' }
-                };
-                const story = stories[storyId];
-                if (story) {
-                    alert(`Opening "${story.title}"\n\n${story.content}`);
-                }
-            };
+window.openStory = function(storyId) {
+    const stories = {
+        'sukumvasi': { url: 'sukumvasi.html' },
+        'chugli':    { url: 'chugli.html' },
+        'irshya':    { url: 'irshya.html' }
+    };
+
+    const story = stories[storyId];
+    if (story) {
+        window.location.href = story.url;
+    }
+};
 
             // Hide nav on scroll down, show on scroll up
             let lastScrollTop = 0;
