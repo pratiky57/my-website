@@ -1,6 +1,6 @@
 # Block all crawlers by default
 User-agent: *
-Disallow: /
+Allow: /
 
 # Allow Googlebot (Search indexing)
 User-agent: Googlebot
