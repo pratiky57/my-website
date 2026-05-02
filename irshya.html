@@ -26,6 +26,26 @@
     <link rel="stylesheet" href="styles.css">
 
     <style>
+/* Completely disable the homepage card overlay on story pages */
+.story-card::before {
+    display: none !important;
+}
+
+/* Stats bar sits outside card — no z-index fight */
+.story-stats-bar {
+    background: #fafafa;
+    border: 1px solid #f0f0f0;
+    border-radius: 0 0 16px 16px;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    position: static !important;
+    z-index: auto !important;
+    pointer-events: auto !important;
+}
         .story-hero {
             background: linear-gradient(135deg, #1a1a2e 0%, #6b1a1a 100%);
             color: #fff;
