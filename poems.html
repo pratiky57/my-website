@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8076382604735884"
+     crossorigin="anonymous"></script>
+
+    <title>English Poems | Dr. Chandeshwar Yadav | Janakpurdham Nepal</title>
+    <meta name="description" content="English poems by Dr. Chandeshwar Yadav — Ode to Corona and Shape Poems. Contemporary poetry from Janakpurdham, Nepal.">
+    <meta name="keywords" content="Chandeshwar Yadav poems, English poems Nepal, Ode to Corona, Shape poem, Janakpurdham poet, contemporary English poetry">
+    <meta name="author" content="Dr. Chandeshwar Yadav">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.rinkuyadav.com.np/poems.html">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="English Poems | Dr. Chandeshwar Yadav">
+    <meta property="og:description" content="English poems by Dr. Chandeshwar Yadav from Janakpurdham, Nepal.">
+    <meta property="og:url" content="https://www.rinkuyadav.com.np/poems.html">
+    <meta property="og:image" content="https://www.rinkuyadav.com.np/author.jpg">
+
+    <link rel="icon" type="image/jpeg" href="author.jpg">
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;600&family=Noto+Sans+Devanagari:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        /* Hero */
+        .poems-hero {
+            background: linear-gradient(135deg, #1a1a2e 0%, #6b1a1a 100%);
+            color: #fff;
+            padding: 4rem 1.5rem 3rem;
+            text-align: center;
+        }
+        .poems-hero .hero-emoji { font-size: 4rem; display: block; margin-bottom: 1rem; }
+        .poems-hero h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.8rem;
+            color: #fff;
+            margin-bottom: 0.5rem;
+        }
+        .poems-hero p { font-size: 0.95rem; opacity: 0.75; color: #ddd; }
+        .poems-hero p span { margin: 0 0.5rem; }
+
+        /* Container */
+        .poems-container {
+            max-width: 820px;
+            margin: 2rem auto;
+            padding: 0 1.5rem 5rem;
+        }
+
+        /* Breadcrumb */
+        .breadcrumb { font-size: 0.88rem; color: #999; margin-bottom: 1.5rem; }
+        .breadcrumb a { color: #f0a500; text-decoration: none; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        .breadcrumb span { margin: 0 0.4rem; color: #ccc; }
+
+        /* Ad slot */
+        .ad-slot { text-align: center; margin: 1.5rem 0; overflow: hidden; }
+        .adsbygoogle:not([data-ad-status]) { display: none !important; }
+
+        /* Poem Card */
+        .poem-card {
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: 0 6px 30px rgba(0,0,0,0.08);
+            overflow: hidden;
+            margin-bottom: 2.5rem;
+        }
+
+        .poem-card-header {
+            background: linear-gradient(135deg, #6b1a1a, #8b2020);
+            padding: 2rem;
+            text-align: center;
+        }
+        .poem-card-header h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            color: #fff;
+            margin-bottom: 0.3rem;
+        }
+        .poem-card-header p { color: #f0c0c0; font-size: 0.9rem; }
+        .poem-card-header .poem-tag {
+            display: inline-block;
+            background: rgba(240, 165, 0, 0.2);
+            color: #f0a500;
+            border: 1px solid rgba(240, 165, 0, 0.4);
+            font-size: 0.78rem;
+            padding: 0.2rem 0.7rem;
+            border-radius: 20px;
+            margin-top: 0.5rem;
+        }
+
+        /* Poem text body */
+        .poem-body { padding: 2.5rem; }
+
+        .poem-text {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.05rem;
+            line-height: 2;
+            color: #333;
+            white-space: pre-line;
+        }
+
+        .poem-stanza { margin-bottom: 1.5rem; }
+
+        .poem-author {
+            text-align: right;
+            margin-top: 1.5rem;
+            font-style: italic;
+            color: #888;
+            font-size: 0.92rem;
+            padding-top: 1rem;
+            border-top: 1px solid #f0f0f0;
+        }
+
+        /* Shape poem image */
+        .shape-poem-body { padding: 2rem; text-align: center; }
+        .shape-poem-body img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        .shape-poem-note {
+            font-size: 0.85rem;
+            color: #aaa;
+            margin-top: 1rem;
+            font-style: italic;
+        }
+
+        /* Stats Bar */
+        .poem-stats-bar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1rem 2rem;
+            border-top: 1px solid #f0f0f0;
+            background: #fafafa;
+            flex-wrap: wrap;
+            gap: 0.8rem;
+            position: relative;
+            z-index: 20;
+            pointer-events: auto;
+        }
+
+        .stat-views { display: flex; align-items: center; gap: 0.5rem; font-size: 0.92rem; color: #888; }
+        .stat-views svg { width: 17px; height: 17px; fill: #aaa; flex-shrink: 0; }
+        .stat-right { display: flex; align-items: center; gap: 1.2rem; }
+
+        .share-icons { display: flex; align-items: center; gap: 0.6rem; }
+        .share-icons a { color: #bbb; transition: color 0.2s; display: flex; align-items: center; text-decoration: none; }
+        .share-icons a:hover { color: #1a1a2e; }
+        .share-icons svg { width: 18px; height: 18px; }
+
+        .copy-wrap { position: relative; display: flex; }
+        .copy-tooltip {
+            position: absolute; bottom: 130%; left: 50%;
+            transform: translateX(-50%);
+            background: #1a1a2e; color: #fff;
+            font-size: 0.75rem; padding: 0.3rem 0.6rem;
+            border-radius: 6px; white-space: nowrap;
+            opacity: 0; pointer-events: none; transition: opacity 0.2s;
+        }
+        .copy-tooltip.show { opacity: 1; }
+
+        .like-btn {
+            display: flex; align-items: center; gap: 0.45rem;
+            background: #fff; border: 1.5px solid #eee;
+            cursor: pointer; font-size: 0.92rem;
+            font-family: 'Inter', sans-serif; color: #999;
+            padding: 0.45rem 1rem; border-radius: 30px;
+            transition: all 0.25s ease; outline: none;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+            position: relative; z-index: 21;
+            pointer-events: auto !important;
+            touch-action: manipulation !important;
+            -webkit-tap-highlight-color: rgba(224,85,85,0.2);
+        }
+        .like-btn:hover { border-color: #e05555; color: #e05555; background: #fff5f5; transform: scale(1.04); }
+        .like-btn.liked { border-color: #e05555; color: #e05555; background: #fff5f5; }
+        .like-btn svg {
+            width: 18px; height: 18px; transition: transform 0.25s ease;
+            stroke: #ccc; fill: none; stroke-width: 2;
+            stroke-linecap: round; stroke-linejoin: round;
+        }
+        .like-btn:hover svg { stroke: #e05555; transform: scale(1.15); }
+        .like-btn.liked svg { stroke: #e05555; fill: #e05555; transform: scale(1.2); animation: heartPop 0.3s ease; }
+
+        @keyframes heartPop {
+            0%   { transform: scale(1); }
+            50%  { transform: scale(1.4); }
+            100% { transform: scale(1.2); }
+        }
+
+        .like-count { font-weight: 600; min-width: 16px; text-align: center; }
+
+        /* Section divider */
+        .section-label {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            color: #1a1a2e;
+            margin: 2.5rem 0 1.5rem;
+            padding-left: 1rem;
+            border-left: 4px solid #f0a500;
+        }
+
+        @media (max-width: 600px) {
+            .poems-hero h2 { font-size: 2rem; }
+            .poem-body { padding: 1.5rem; }
+            .poem-stats-bar { padding: 1rem 1.2rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header role="banner">
+        <div class="container">
+            <div class="header-content">
+                <h1>Literature</h1>
+                <p class="subtitle">Welcome to Maithali Stories and Poems by Chandeshwar Yadav</p>
+                <div class="header-image">
+                    <img src="author.jpg" alt="Dr. Chandeshwar Yadav" title="Dr. Chandeshwar Yadav" width="120" height="120">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Nav -->
+    <nav role="navigation" aria-label="Main Navigation">
+        <div class="container">
+            <div class="nav-container">
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#stories">Stories</a></li>
+                    <li><a href="poems.html" class="active">Poems</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open mobile menu" aria-expanded="false">☰</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <div class="poems-hero">
+        <span class="hero-emoji">✍️</span>
+        <h2>English Poems</h2>
+        <p>
+            <span>🖊️ Dr. Chandeshwar Yadav</span>
+            <span>•</span>
+            <span>📍 Janakpurdham, Nepal</span>
+            <span>•</span>
+            <span>4 Poems</span>
+        </p>
+    </div>
+
+    <main id="main" role="main">
+        <div class="poems-container">
+
+            <!-- Breadcrumb -->
+            <div class="breadcrumb">
+                <a href="index.html">Home</a>
+                <span>›</span>
+                Poems
+            </div>
+
+            <!-- Top Ad -->
+            <div class="ad-slot">
+                <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="ca-pub-8076382604735884"
+                     data-ad-format="auto"
+                     data-full-width-responsive="true"></ins>
+                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+            </div>
+
+            <!-- ===== POEM 1: ODE TO CORONA ===== -->
+            <h3 class="section-label">Featured Poem</h3>
+
+            <div class="poem-card" itemscope itemtype="http://schema.org/CreativeWork">
+                <meta itemprop="author" content="Dr. Chandeshwar Yadav">
+                <meta itemprop="inLanguage" content="en">
+                <meta itemprop="name" content="Ode to Corona">
+                <meta itemprop="datePublished" content="2020-10-14">
+
+                <div class="poem-card-header">
+                    <h3>Ode to Corona</h3>
+                    <p>Dr. Chandeshwar Yadav</p>
+                    <span class="poem-tag">October 14, 2020</span>
+                </div>
+
+                <div class="poem-body">
+                    <div class="poem-text" itemprop="text">
+<div class="poem-stanza">
+Thou art fairy of fairish, O Corona dear!
+Feel I justice to thee, so you are just
+than to whom I trust.
+And make them myself for five year,
+But these cuttlefishes tie themselves into chair
+as if they never come to here,
+Loot, boot and shot
+change me dust,
+Make more malfeasance here, O my dear!
+Fish without water, I am here,
+They make me cry, they make me fry, O my dear!
+</div>
+
+<div class="poem-stanza">
+Thou art the sign of sheer!
+Thou art fair than my near,
+No rich, no poor before thou dear,
+Thou know nothing who black or white,
+Neither thou know Krishna nor Kansh,
+Wall and Pentagon same to thee,
+So thou are perfect in my view,
+Thou art teacher of light
+For cuttlefishes who don't have response,
+Righteous thou art, not unfair, O my dear!
+</div>
+
+<div class="poem-stanza">
+Thou art dandy of delight, O Corona dear!
+Hectic life was there, before thou appear,
+Thou take my tear as I was in high gear,
+Free I am, because thou art sincere,
+Freedom fighter thou are,
+Thou provide opportunity to play guitar,
+Thou make me superstar,
+Leave me to enjoy in my own bar,
+I am with my dear with no fear,
+Because no boss near, O my dear!
+</div>
+
+<div class="poem-stanza">
+Thou art calm controller of crime!
+But now complete stress-free bedtime,
+Blackbirds, white birds all are on the tree,
+Thou make them free,
+Even deaf listen the songs
+as if nothing is wrong,
+From sea, mountain I can see,
+as though sky is free,
+So sphere be sheer, and I with my dear,
+So come after every some year, O my dear!
+</div>
+                    </div>
+                    <div class="poem-author">— Dr. Chandeshwar Yadav</div>
+                </div>
+
+                <!-- Stats Bar -->
+                <div class="poem-stats-bar">
+                    <div class="stat-views">
+                        <svg viewBox="0 0 24 24"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zm0 12.5c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+                        <span id="viewCount1">...</span>&nbsp;views
+                    </div>
+                    <div class="stat-right">
+                        <div class="share-icons">
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.rinkuyadav.com.np/poems.html" target="_blank" rel="noopener" title="Share on Facebook">
+                                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                            </a>
+                            <a href="https://twitter.com/intent/tweet?url=https://www.rinkuyadav.com.np/poems.html&text=Ode to Corona - Dr. Chandeshwar Yadav" target="_blank" rel="noopener" title="Share on X">
+                                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                            </a>
+                            <div class="copy-wrap">
+                                <a href="#" class="copyLinkBtn" data-tooltip="copyTooltip1" title="Copy link">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/>
+                                        <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>
+                                    </svg>
+                                </a>
+                                <span class="copy-tooltip" id="copyTooltip1">Copied!</span>
+                            </div>
+                        </div>
+                        <button class="like-btn" data-poem="ode-to-corona" aria-label="Like this poem">
+                            <svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                            <span class="like-count" id="likeCount1">...</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mid Ad -->
+            <div class="ad-slot">
+                <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="ca-pub-8076382604735884"
+                     data-ad-format="auto"
+                     data-full-width-responsive="true"></ins>
+                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+            </div>
+
+            <!-- ===== SHAPE POEMS ===== -->
+            <h3 class="section-label">Shape Poems</h3>
+
+            <!-- POEM 2: Corona Shape Poem -->
+            <div class="poem-card" itemscope itemtype="http://schema.org/CreativeWork">
+                <meta itemprop="author" content="Dr. Chandeshwar Yadav">
+                <meta itemprop="inLanguage" content="en">
+                <meta itemprop="name" content="Corona Shape Poem">
+                <meta itemprop="datePublished" content="2020-10-13">
+
+                <div class="poem-card-header">
+                    <h3>Corona Shape Poem</h3>
+                    <p>Dr. Chandeshwar Yadav</p>
+                    <span class="poem-tag">October 13, 2020</span>
+                </div>
+
+                <div class="shape-poem-body">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrlnBFi1YKt8VTyWGgQTHm5qaFE-wJANAS12UF_cjApudkjaxFpTuQ_QK1arSJrOCXRKY_155TmAN2qA5Z6bGuCkyJjXonVZ07qVdHwYixrYaO2xZukDTaTmABsApHlIMjnz6ABwrX4X4/w763-h464/corona+123.png"
+                         alt="Corona Shape Poem by Dr. Chandeshwar Yadav"
+                         loading="lazy">
+                    <p class="shape-poem-note">Shape poem — text arranged in visual form</p>
+                </div>
+
+                <div class="poem-stats-bar">
+                    <div class="stat-views">
+                        <svg viewBox="0 0 24 24"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zm0 12.5c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+                        <span id="viewCount2">...</span>&nbsp;views
+                    </div>
+                    <div class="stat-right">
+                        <button class="like-btn" data-poem="corona-shape-poem" aria-label="Like this poem">
+                            <svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                            <span class="like-count" id="likeCount2">...</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- POEM 3: Shape Poem (Bright Day) -->
+            <div class="poem-card" itemscope itemtype="http://schema.org/CreativeWork">
+                <meta itemprop="author" content="Dr. Chandeshwar Yadav">
+                <meta itemprop="inLanguage" content="en">
+                <meta itemprop="name" content="Shape Poem — Bright Day">
+                <meta itemprop="datePublished" content="2020-09-30">
+
+                <div class="poem-card-header">
+                    <h3>Shape Poem — Bright Day</h3>
+                    <p>Dr. Chandeshwar Yadav</p>
+                    <span class="poem-tag">September 30, 2020</span>
+                </div>
+
+                <div class="shape-poem-body">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtIrDxXwfijE06oW9puCZfkYERgfrxSHZtQoJOjKmNdG91g7U2VnM3LUW373WyN1F8SrNhWFI8_oBRndT7yNyyW3YBcubqRyMrOGx5NdcSwWl61bdsyknscvcHk70IEbop6UHIPjKZhSs/w690-h561/bright+day.jpg"
+                         alt="Shape Poem Bright Day by Dr. Chandeshwar Yadav"
+                         loading="lazy">
+                    <p class="shape-poem-note">Shape poem — text arranged in visual form</p>
+                </div>
+
+                <div class="poem-stats-bar">
+                    <div class="stat-views">
+                        <svg viewBox="0 0 24 24"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zm0 12.5c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+                        <span id="viewCount3">...</span>&nbsp;views
+                    </div>
+                    <div class="stat-right">
+                        <button class="like-btn" data-poem="shape-poem-bright-day" aria-label="Like this poem">
+                            <svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                            <span class="like-count" id="likeCount3">...</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- POEM 4: Shape Poem (Slide) -->
+            <div class="poem-card" itemscope itemtype="http://schema.org/CreativeWork">
+                <meta itemprop="author" content="Dr. Chandeshwar Yadav">
+                <meta itemprop="inLanguage" content="en">
+                <meta itemprop="name" content="Shape Poem">
+                <meta itemprop="datePublished" content="2020-09-20">
+
+                <div class="poem-card-header">
+                    <h3>Shape Poem</h3>
+                    <p>Dr. Chandeshwar Yadav</p>
+                    <span class="poem-tag">September 20, 2020</span>
+                </div>
+
+                <div class="shape-poem-body">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitfcv7vmaBacYxZaXB6yyWzIn5gxrci9ZHN_68L3myOfgMhGi0Kjj9WuGcPHyJVxlkFyRZiq9MNiCdsTf6z5qPwpWadfCWVM6EzZj2R1c5hnVptQlLiu97RZG7C_Y-jqIYKtZfrvvvueA/w592-h501/Slide1.PNG"
+                         alt="Shape Poem by Dr. Chandeshwar Yadav"
+                         loading="lazy">
+                    <p class="shape-poem-note">Shape poem — text arranged in visual form</p>
+                </div>
+
+                <div class="poem-stats-bar">
+                    <div class="stat-views">
+                        <svg viewBox="0 0 24 24"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zm0 12.5c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+                        <span id="viewCount4">...</span>&nbsp;views
+                    </div>
+                    <div class="stat-right">
+                        <button class="like-btn" data-poem="shape-poem" aria-label="Like this poem">
+                            <svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                            <span class="like-count" id="likeCount4">...</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer role="contentinfo">
+        <div class="container">
+            <p>&copy; 2026 Dr. Chandeshwar Yadav. All rights reserved.</p>
+            <p>Preserving and celebrating Maithali literary tradition and Mithila cultural heritage from Janakpurdham, Nepal</p>
+            <p style="margin-top: 0.8rem;">
+                <a href="index.html">Home</a> &nbsp;|&nbsp;
+                <a href="privacy-policy.html">Privacy Policy</a> &nbsp;|&nbsp;
+                <a href="index.html#contact">Contact</a>
+            </p>
+        </div>
+    </footer>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function () {
+
+        // Mobile Nav
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const navMenu = document.getElementById('navMenu');
+        if (mobileMenuBtn && navMenu) {
+            mobileMenuBtn.addEventListener('click', function (e) {
+                e.preventDefault();
+                navMenu.classList.toggle('active');
+                mobileMenuBtn.innerHTML = navMenu.classList.contains('active') ? '✕' : '☰';
+            });
+            document.addEventListener('click', function (e) {
+                if (!navMenu.contains(e.target) && !mobileMenuBtn.contains(e.target)) {
+                    navMenu.classList.remove('active');
+                    mobileMenuBtn.innerHTML = '☰';
+                }
+            });
+        }
+
+        // Poems config
+        const poems = [
+            { viewId: 'viewCount1', likeId: 'likeCount1', btnIndex: 0, key: 'ode-to-corona' },
+            { viewId: 'viewCount2', likeId: 'likeCount2', btnIndex: 1, key: 'corona-shape-poem' },
+            { viewId: 'viewCount3', likeId: 'likeCount3', btnIndex: 2, key: 'shape-poem-bright-day' },
+            { viewId: 'viewCount4', likeId: 'likeCount4', btnIndex: 3, key: 'shape-poem' },
+        ];
+
+        const BASE = 'rinkuyadav.com.np';
+        const likeBtns = document.querySelectorAll('.like-btn');
+
+        poems.forEach(function(poem) {
+            // View counter
+            fetch('https://api.countapi.xyz/hit/' + BASE + '/' + poem.key + '-views')
+                .then(r => r.json())
+                .then(d => { document.getElementById(poem.viewId).textContent = d.value.toLocaleString(); })
+                .catch(() => {
+                    let v = parseInt(localStorage.getItem('views_' + poem.key) || '0') + 1;
+                    localStorage.setItem('views_' + poem.key, v);
+                    document.getElementById(poem.viewId).textContent = v;
+                });
+
+            // Like count
+            fetch('https://api.countapi.xyz/get/' + BASE + '/' + poem.key + '-likes')
+                .then(r => r.json())
+                .then(d => { document.getElementById(poem.likeId).textContent = (d.value || 0).toLocaleString(); })
+                .catch(() => { document.getElementById(poem.likeId).textContent = localStorage.getItem('likes_' + poem.key) || '0'; });
+
+            // Like button state
+            const btn = likeBtns[poem.btnIndex];
+            if (localStorage.getItem('liked_' + poem.key) === 'true') btn.classList.add('liked');
+
+            btn.addEventListener('click', function () {
+                const likeEl = document.getElementById(poem.likeId);
+                if (!btn.classList.contains('liked')) {
+                    btn.classList.add('liked');
+                    localStorage.setItem('liked_' + poem.key, 'true');
+                    fetch('https://api.countapi.xyz/hit/' + BASE + '/' + poem.key + '-likes')
+                        .then(r => r.json())
+                        .then(d => {
+                            likeEl.textContent = d.value.toLocaleString();
+                            localStorage.setItem('likes_' + poem.key, d.value);
+                        })
+                        .catch(() => {
+                            let c = parseInt(localStorage.getItem('likes_' + poem.key) || '0') + 1;
+                            localStorage.setItem('likes_' + poem.key, c);
+                            likeEl.textContent = c;
+                        });
+                } else {
+                    btn.classList.remove('liked');
+                    localStorage.removeItem('liked_' + poem.key);
+                    let c = Math.max(0, parseInt(likeEl.textContent.replace(/,/g, '')) - 1);
+                    likeEl.textContent = c.toLocaleString();
+                    localStorage.setItem('likes_' + poem.key, c);
+                }
+            });
+        });
+
+        // Copy link buttons
+        document.querySelectorAll('.copyLinkBtn').forEach(function(btn) {
+            btn.addEventListener('click', function(e) {
+                e.preventDefault();
+                const tooltipId = btn.getAttribute('data-tooltip');
+                const tooltip = document.getElementById(tooltipId);
+                navigator.clipboard.writeText(window.location.href)
+                    .then(() => { tooltip.classList.add('show'); setTimeout(() => tooltip.classList.remove('show'), 2000); })
+                    .catch(() => {
+                        const el = document.createElement('textarea');
+                        el.value = window.location.href;
+                        document.body.appendChild(el); el.select();
+                        document.execCommand('copy'); document.body.removeChild(el);
+                        tooltip.classList.add('show'); setTimeout(() => tooltip.classList.remove('show'), 2000);
+                    });
+            });
+        });
+
+    });
+    </script>
+
+</body>
+</html>
